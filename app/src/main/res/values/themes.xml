@@ -1,0 +1,23 @@
+
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="AparenciaTextoMenu" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textColor">@color/roxo</item>
+    </style>
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">@color/lilas</color>
+
+    <style name="EstiloBotaoOverflow" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@color/lilasClaro</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ConversorCVM" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="actionOverflowButtonStyle">@style/EstiloBotaoOverflow</item>
+        <item name="android:colorBackground">@color/lilasClaro</item>
+        <item name="popupMenuBackground">@color/lilasClaro</item>
+        <item name="android:itemTextAppearance">@style/AparenciaTextoMenu</item>
+    </style>
+
+    <style name="Theme.ConversorCVM" parent="Base.Theme.ConversorCVM" />
+</resources>
